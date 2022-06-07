@@ -184,6 +184,23 @@ fig
   2. 前往 http://localhost:8000/
   3. 於畫面中點選開啟 HTML 檔就可以看到順利執行的圖了
 
+## 其他有趣應用
+### 直接匯入 py 檔並執行
+```html
+<py-script src="./test.py"></py-script>
+```
+### 互動式 Python（類似 Jupyter notebook 功能）
+![py_repl](images/py_repl.png)
+```html
+<py-repl id="my-py-repl" auto-generate="true"></py-repl>
+```
+- auto-generate="true": 按下 shift enter 執行時會自動產生下一行新的 cell
+
+
+### Mario
+https://github.com/pyscript/pyscript/tree/main/pyscriptjs/examples/mario
+![mario](images/mario.png)
+
 ## 個人感想
 
 ### 等待時間過長
